@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="main_css.css">
+  <link rel="stylesheet" href="snake_css.css">
+  <script src="main_js.js"></script>
+  <script src="snake_js.js"></script>
+</head>
+<body onload='init();'>
+  <div id="phone-window">
+    <div id="snake-buffer" onclick="startGame()">
+      <div id="snake-container">
+      
+
+      </div>
+    </div>
+    <div id="opad-container">
+      <div id="layer2">
+        <div class="quarter-circle" style="border-radius: 15.75vh 0 0 0;" onclick="highlightButton(this, 'up')"><div id="triangle1"></div></div>
+        <div class="quarter-circle" style="border-radius: 0 15.75vh 0 0;" onclick="highlightButton(this, 'right')"><div id="triangle2"></div></div>
+        <div class="quarter-circle" style="border-radius: 0 0 0 15.75vh;" onclick="highlightButton(this, 'left')"><div id="triangle3"></div></div>
+        <div class="quarter-circle" style="border-radius: 0 0 15.75vh 0;" onclick="highlightButton(this, 'down')"><div id="triangle4"></div></div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

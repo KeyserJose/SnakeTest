@@ -1,0 +1,24 @@
+#snake-container {
+
+  top: 0.5vh;
+  left: 0.5vh;
+  width: 50vh;
+  height: 50vh;
+  background-color: var(--grey3);
+  position: relative;
+
+}
+
+.node {
+  position: absolute;
+  width: 4vh;
+  height: 4vh;
+  margin: 0.5vh;
+  background-color: white;
+  border-radius: 100%;
+}
+
+.link {
+  position: absolute;
+  background-color: white;
+}
